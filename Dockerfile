@@ -1,2 +1,2 @@
-FROM abcsys.cn:5000/public/tomcat:latest
+FROM deploy.bocloud.k8s:40443/public/tomcat:latest
 ADD target/hello-world.war /usr/local/tomcat/webapps/
